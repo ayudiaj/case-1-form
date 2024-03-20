@@ -12,29 +12,6 @@
 <body>
     <?php include ("headerr.php"); ?>
 
-
-    <?php
-
-    $nameErr = $emailErr = $genderErr = $websiteErr = "";
-    $name = $email = $gender = $comment = $website = "";
-
-    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (empty ($_POST["judul"])) {
-        $nameErr = "Name is required";
-    } else {
-        // $name = test_input($_POST["judul"]);
-    }
-
-
-    function test_input($data)
-    {
-        $data = trim($data);
-        $data = stripslashes($data);
-        $data = htmlspecialchars($data);
-        return $data;
-    }
-    ?>
-
     <div class="container mt-3">
         <h1>Add Books</h1>
 

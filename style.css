@@ -8,7 +8,7 @@
     width: 100%;
     border-collapse: collapse;
     text-align: justify;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
 }
 
 .table td {

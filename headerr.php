@@ -22,7 +22,7 @@
                     <a class="navbar-brand" href="#">
                         <img src="uploads/gramedia.png" alt="Logo" height="50"
                             class="d-inline-block align-text-top fs-2 text-white">
-                        
+
                     </a>
 
                     <div class="d-flex justify-content-end">
